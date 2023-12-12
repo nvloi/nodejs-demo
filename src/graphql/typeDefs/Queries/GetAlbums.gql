@@ -1,0 +1,8 @@
+type Album {
+    id: ID!
+    name: String
+}
+
+type Query {
+    getAlbums(token: String!): [Album]
+}

@@ -1,0 +1,10 @@
+type Song {
+    id: ID!
+    album: Album
+    name: String
+    duration: Float
+}
+
+type Query {
+    getSongs: [Song]
+}

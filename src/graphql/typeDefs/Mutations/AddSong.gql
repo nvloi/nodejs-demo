@@ -1,0 +1,9 @@
+input addSongInput {
+    name: String!
+    album_id: Int!
+    duration: Float!
+}
+
+type Mutation {
+    addSong(input: addSongInput): Song
+}
